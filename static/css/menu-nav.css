@@ -1,0 +1,46 @@
+body,li,ul,nav{
+    margin: 0;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+a{
+    text-decoration-line: none;
+    color: antiquewhite;
+}
+
+.head-nav{
+    width: 80%;
+    background-color: grey;
+    position: fixed;
+    right: 0;
+}
+
+.head-nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    padding: 10px 50px;
+}
+
+.head-nav ul li a:active{
+    color: aqua;
+}
+
+.head-nav ul li a:hover{
+    color: black;
+}
+
+.menu-list{
+    position: fixed;
+    top: 89.6px;
+    left: 20%;
+    display: none;
+}
+
+.menu-list div ul li{
+    display: inline-block;
+    padding: 5px 30px;
+}
+

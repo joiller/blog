@@ -39,6 +39,10 @@ body{
     transform: scale(1.1,1.1);
 }
 
+.nav ul{
+    margin-block-start: 1em;
+}
+
 .leader{
     list-style-type: none;
     /*display: inline-block;*/
