@@ -22,8 +22,6 @@ $(function () {
 
     let prev = $(".prev")[0],
         next = $(".next")[0]
-    console.log(prev)
-    console.log(next)
 
     $(prev).click(function () {
         plusSlides(-1)
@@ -39,7 +37,6 @@ $(function () {
     })
 
     function plusSlides(t) {
-        console.log('t='+t)
         showSlides(slideIndex += t)
     }
 
@@ -59,12 +56,16 @@ $(function () {
             $(slides[i]).hide()
         }
         for (let i=0;i<dots.length;i++) {
-            $(dots[i]).attr('class','')
+            dots[i].className = dots[i].className.replace(' active','')
         }
         $(slides[slideIndex-1]).show()
-        $(dots[slideIndex-1]).attr('class','active')
-        console.log('now show pic num'+n)
+        dots[slideIndex-1].className += ' active'
+        console.log('now show pic num'+slideIndex)
     }
+
+    setInterval(function () {
+        showSlides(slideIndex+=1)
+    },3000)
     
 })
 

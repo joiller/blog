@@ -59,6 +59,10 @@
     top: 0;
 }
 
+.bottomButton{
+    text-align: center;
+}
+
 .dot{
     cursor: pointer;
     height: 15px;
@@ -75,7 +79,6 @@
 .active, .dot:hover{
     background-color: aliceblue;
     text-align: center;
-    height: 20px;
 }
 
 /* Fading animation */
