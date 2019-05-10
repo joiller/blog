@@ -24,19 +24,22 @@ a{
     padding: 10px 50px;
 }
 
-.head-nav ul li a:active{
+.head-nav ul a:active{
     color: aqua;
 }
 
-.head-nav ul li a:hover{
+.head-nav ul a:hover{
     color: black;
 }
 
 .menu-list{
+    background-color: aliceblue;
+    padding-top: 40px;
     position: fixed;
     top: 89.6px;
     left: 20%;
     display: none;
+    width: 840px;
 }
 
 .menu-list div ul li{

@@ -6,8 +6,9 @@
     <link rel="stylesheet" href="static/css/index-nav.css">
     <link rel="stylesheet" href="static/css/index-content.css">
     <link rel="stylesheet" href="static/css/menu-nav.css">
+    <link rel="stylesheet" href="static/css/index-slide.css">
     <script src="static/js/mouse.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="static/js/jquery.min.js"></script>
     <script src="static/js/menu.js"></script>
 </head>
 <body>
@@ -30,13 +31,17 @@
     </div>
 </div>
 <nav class="head-nav">
-    <ul>
-        <li><a href="item1.html">Lorem.</a></li>
-        <li><a href="item2.html">Ea!</a></li>
-        <li><a href="item3.html">Autem!</a></li>
-        <li><a href="item4.html">Voluptatum.</a></li>
-        <li><a href="item5.html">Deserunt?</a></li>
-    </ul>
+    <ul><a href="item1">
+        <li>Lorem.</li>
+    </a><a href="item2">
+        <li>Quae!</li>
+    </a><a href="item3">
+        <li>Distinctio!</li>
+    </a><a href="item4">
+        <li>Aperiam!</li>
+    </a><a href="item5">
+        <li>Nostrum.</li>
+    </a></ul>
 </nav>
 
 <div class="menu-list">
@@ -75,6 +80,36 @@
             <li><a href="type4">Reprehenderit.</a></li>
             <li><a href="type5">Recusandae!</a></li>
         </ul>
+    </div>
+</div>
+
+<div class="slideshow-container">
+
+<!--    滚动图-->
+    <div class="mySlides fade">
+        <div class="numbertext">1/3</div>
+        <img src="static/women/img1.jpg" alt="">
+        <div class="text">Caption 1</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">2/3</div>
+        <img src="static/women/img2.jpg" alt="">
+        <div class="text">Caption 2</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">3/3</div>
+        <img src="static/women/img3.jpg" alt="">
+        <div class="text">Caption 3</div>
+    </div>
+
+<!--    前后按钮-->
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+<!--    下方按钮-->
+    <div class="bottomButton">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
     </div>
 </div>
 </body>
