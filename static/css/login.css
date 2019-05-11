@@ -1,0 +1,65 @@
+#show{
+    width: 140px;
+    float: right;
+}
+
+form{
+    width: 800px;
+    /*text-align: center;*/
+    margin: auto;
+}
+
+.imgcontainer{
+    margin: auto;
+    width: 240px;
+}
+
+.imgcontainer img{
+    border-radius: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.container input{
+    margin-bottom: 20px;
+    width: 100%;
+    border-width: 2px;
+    border-color: #bbbbbb;
+    border-style: solid;
+    display: inline-block;
+    height: 30px;
+}
+
+button{
+    margin-bottom: 20px;
+    color: aliceblue;
+    border: none;
+    font-size: 20px;
+    height: 45px;
+    line-height: 100%;
+    width: 100%;
+    background-color: limegreen;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.cancelBtn{
+    width: auto;
+    height: 45px;
+    font-size: 20px;
+    margin: 20px;
+    background-color: red;
+}
+
+.container input[type=checkbox]{
+    width: unset;
+    height: unset;
+}
+
+span.forgotPWD{
+    line-height: 45px;
+    float: right;
+    margin: 20px;
+}

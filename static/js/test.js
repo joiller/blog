@@ -36,7 +36,15 @@ $(function () {
 
     showSlide(1)
 
-    setInterval(function () {
+    let slideInterval = setInterval(function () {
         showSlide(++slideIndex)
     },3000)
+
+    $(".slide-container").hover(function () {
+        clearInterval(slideInterval)
+    },function () {
+        slideInterval = setInterval(function () {
+            showSlide(++slideIndex)
+        },3000)
+    })
 })

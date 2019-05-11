@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="static/css/login.css">
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/login.js"></script>
+</head>
+<body>
+<button id="show" onclick="document.getElementsByTagName('form')[0].style.display='block'">Login</button>
+
+<form action="index.html" style="display: none">
+    <div class="imgcontainer">
+        <img src="static/women/img_avatar2.png" alt="">
+    </div>
+
+    <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" name="uname" placeholder="Enter Username" required>
+
+        <label for="pwd"><b>Password</b></label>
+        <input type="password" name="pwd" placeholder="Enter Password" required>
+
+        <label for="email"><b>Email</b></label>
+        <input type="email" name="email" placeholder="Enter Email">
+
+        <button>Login</button>
+        <label>
+            <input type="checkbox" name="Remember">Remember Me
+        </label>
+    </div>
+
+    <div class="container" style="background-color: #f1f1f1">
+        <button class="cancelBtn">Cancel</button>
+        <span class="forgotPWD">Forget <a href="">Password</a></span>
+    </div>
+</form>
+</body>
+</html>
